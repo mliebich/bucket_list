@@ -3,12 +3,18 @@
   <head>
     <title>BucketList</title>
     <%= csrf_meta_tags %>
-
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <%= yield %>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href='#'>Home</a></li>
+          <li><a href='#'>Styleguide</a></li>
+        </ul>
+      </nav>
+    </footer>
   </body>
 </html>
