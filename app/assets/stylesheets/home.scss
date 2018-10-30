@@ -961,14 +961,14 @@ table {
   border-bottom: 1px solid #e3e5e9;
 }
 
-@import '_navigation.scss'
+@import '_navigation.scss';
 
 /* Filter tags
    ========================================================================== */
 
 /**
  *  Save code by adding .pagination to the existing styling
- */
+ **/
 
 .tags-list,
 .pagination {
@@ -1197,7 +1197,7 @@ table {
    ========================================================================== */
 
 .masthead {
-  background: #afbac4 {{rails-asset-url 'logo.png'}} no-repeat 50% 50% / cover;
+  background: #afbac4 asset-url('mountain-lake.jpg') no-repeat 50% 50% / cover;
   border-bottom: 1px solid #e3e5e9;
   padding: 1.6rem 0;
   margin: 0 0 6.4rem;
@@ -1256,7 +1256,7 @@ table {
    ========================================================================== */
 .banner {
   /* Use short-hand for the background properties */
-  background: #afbac4 url(../images/mountain-lake.jpg) no-repeat 50% 0% / auto 787px;
+  background: #afbac4 asset-url('mountain-lake.jpg') no-repeat 50% 0% / auto 787px;
   padding: 0;
   margin: 0;
 }
